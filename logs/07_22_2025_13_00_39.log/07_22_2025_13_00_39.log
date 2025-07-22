@@ -1,0 +1,18 @@
+[2025-07-22 13:00:41,641] 224 werkzeug - WARNING - * Debugger is active!
+[2025-07-22 13:00:41,753] 224 werkzeug - INFO - * Debugger PIN: 606-082-761
+[2025-07-22 13:00:55,140] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:00:55] "GET / HTTP/1.1" 200 -
+[2025-07-22 13:00:58,198] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:00:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-07-22 13:01:05,225] 57 root - INFO -Entered initiated_data_ingestion method of data_integration class
+[2025-07-22 13:01:05,225] 61 root - INFO -got the data from mongodb
+[2025-07-22 13:01:05,225] 62 root - INFO -exited initiate_data_ingestion methods of data ingestion class
+[2025-07-22 13:01:05,226] 67 root - INFO -Entered initiate data transformation method of data transfomration class
+[2025-07-22 13:01:05,500] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:01:05] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[2025-07-22 13:01:08,992] 57 root - INFO -Entered initiated_data_ingestion method of data_integration class
+[2025-07-22 13:01:08,993] 61 root - INFO -got the data from mongodb
+[2025-07-22 13:01:08,993] 62 root - INFO -exited initiate_data_ingestion methods of data ingestion class
+[2025-07-22 13:01:08,993] 67 root - INFO -Entered initiate data transformation method of data transfomration class
+[2025-07-22 13:01:09,064] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:01:09] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[2025-07-22 13:01:09,451] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:01:09] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-07-22 13:01:09,500] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:01:09] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-07-22 13:01:09,885] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:01:09] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-07-22 13:02:59,538] 224 werkzeug - INFO - * Detected change in 'E:\\DATA ANALYTICS\\Projects\\Sensor Fault Detection\\src\\pipeline\\predict_pipeline.py', reloading

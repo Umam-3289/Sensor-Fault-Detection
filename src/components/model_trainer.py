@@ -1,5 +1,5 @@
 import sys
-from typing import dict,tuple,List
+from typing import Dict,Tuple,List
 import os
 import pandas as pd
 import numpy as np
@@ -38,13 +38,14 @@ class ModelTrainer:
             x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2,random_state=42)
             report={}
 
-            for i in range(len(list(models))):
-                model=list(model.values())[i]
-                y_train_pred=model.predict(x_train)
-                y_test_pred=model.predict(x_test)
-                train_model_score=accuracy_score(y_train,y_train_pred)
-                test_model_score=accuracy_score(y_test,y_test_pred)
-                report[list(models.keys())[i]]=test_model_score
+            
+            for model_name, model in models.items():
+                model.fit(x_train, y_train)
+                y_train_pred = model.predict(x_train)
+                y_test_pred = model.predict(x_test)
+                train_model_score = accuracy_score(y_train, y_train_pred)
+                test_model_score = accuracy_score(y_test, y_test_pred)
+                report[model_name] = test_model_score
             return report
         
         except Exception as e:
@@ -73,7 +74,7 @@ class ModelTrainer:
     
     def fintune_best_model(self,best_model_object:object,best_model_name,x_train,y_train)->object:
         try:
-            model_param_grid=self.utils.read_yaml_file(self.model_trainer_config.model_config_file_path)["model_selection"]["model"][best_model_name]["search_paraam_grid"]
+            model_param_grid=self.utils.read_yaml_file(self.model_trainer_config.model_config_file_path)["model_selection"]["model"][best_model_name]["search_param_grid"]
             grid_search_cv=GridSearchCV(best_model_object,param_grid=model_param_grid,cv=5,n_jobs=-1,verbose=1)
             grid_search_cv.fit(x_train,y_train)
             best_params=grid_search_cv.best_params_
@@ -87,12 +88,8 @@ class ModelTrainer:
     def initiate_model_trainer(self,train_array,test_array):
         try:
             logging.info(f"splitting training and testing input and target feature")
-            x_train,y_train,x_test,y_test=(
-                train_array[:,:-1],
-                train_array[:,:-1],
-                test_array[:,:-1],
-                test_array[:,:-1]
-            )
+            x_train,y_train=train_array[:, :-1], train_array[:, -1]
+            x_test,y_test=test_array[:, :-1], test_array[:, -1]
             logging.info(f"Extracting model config file path")
 
             logging.info(f"Extracting model config file path")

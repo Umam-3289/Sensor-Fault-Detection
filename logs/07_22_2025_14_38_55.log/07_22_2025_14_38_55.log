@@ -1,0 +1,42 @@
+[2025-07-22 14:38:57,443] 224 werkzeug - WARNING - * Debugger is active!
+[2025-07-22 14:38:57,443] 224 werkzeug - INFO - * Debugger PIN: 606-082-761
+[2025-07-22 14:39:04,465] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 14:39:04] "GET / HTTP/1.1" 200 -
+[2025-07-22 14:39:09,263] 57 root - INFO -Entered initiated_data_ingestion method of data_integration class
+[2025-07-22 14:39:09,263] 39 root - INFO -Eporting data from mongodb
+[2025-07-22 14:39:10,639] 48 root - INFO -savinng exported data into feature file path: artifacts
+[2025-07-22 14:39:10,678] 61 root - INFO -got the data from mongodb
+[2025-07-22 14:39:10,678] 62 root - INFO -exited initiate_data_ingestion methods of data ingestion class
+[2025-07-22 14:39:10,679] 67 root - INFO -Entered initiate data transformation method of data transfomration class
+[2025-07-22 14:39:10,921] 36 root - INFO -Entered the new save_object method of MainUtils class
+[2025-07-22 14:39:10,923] 42 root - INFO -Exited the save_objects method of MainUtils class
+[2025-07-22 14:39:10,926] 90 root - INFO -splitting training and testing input and target feature
+[2025-07-22 14:39:10,926] 93 root - INFO -Extracting model config file path
+[2025-07-22 14:39:10,926] 95 root - INFO -Extracting model config file path
+[2025-07-22 14:39:55,894] 57 root - INFO -Entered initiated_data_ingestion method of data_integration class
+[2025-07-22 14:39:55,894] 39 root - INFO -Eporting data from mongodb
+[2025-07-22 14:39:57,187] 48 root - INFO -savinng exported data into feature file path: artifacts
+[2025-07-22 14:39:57,628] 61 root - INFO -got the data from mongodb
+[2025-07-22 14:39:57,628] 62 root - INFO -exited initiate_data_ingestion methods of data ingestion class
+[2025-07-22 14:39:57,628] 67 root - INFO -Entered initiate data transformation method of data transfomration class
+[2025-07-22 14:39:58,203] 36 root - INFO -Entered the new save_object method of MainUtils class
+[2025-07-22 14:39:58,203] 42 root - INFO -Exited the save_objects method of MainUtils class
+[2025-07-22 14:39:58,205] 90 root - INFO -splitting training and testing input and target feature
+[2025-07-22 14:39:58,207] 93 root - INFO -Extracting model config file path
+[2025-07-22 14:39:58,207] 95 root - INFO -Extracting model config file path
+[2025-07-22 14:40:23,137] 116 root - INFO -Best model found on both training and testing dataset
+[2025-07-22 14:40:23,137] 118 root - INFO -saving model at path: artifacts\model.pkl
+[2025-07-22 14:40:23,137] 36 root - INFO -Entered the new save_object method of MainUtils class
+[2025-07-22 14:40:23,149] 42 root - INFO -Exited the save_objects method of MainUtils class
+[2025-07-22 14:40:23,163] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 14:40:23] "GET /train HTTP/1.1" 200 -
+[2025-07-22 14:41:03,663] 116 root - INFO -Best model found on both training and testing dataset
+[2025-07-22 14:41:03,663] 118 root - INFO -saving model at path: artifacts\model.pkl
+[2025-07-22 14:41:03,664] 36 root - INFO -Entered the new save_object method of MainUtils class
+[2025-07-22 14:41:03,670] 42 root - INFO -Exited the save_objects method of MainUtils class
+[2025-07-22 14:41:03,672] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 14:41:03] "GET /train HTTP/1.1" 200 -
+[2025-07-22 14:41:10,659] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 14:41:10] "GET /predict HTTP/1.1" 200 -
+[2025-07-22 14:41:10,917] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 14:41:10] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+[2025-07-22 14:41:10,978] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 14:41:10] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[2025-07-22 14:41:20,547] 85 root - INFO -predictions completed
+[2025-07-22 14:41:20,547] 51 root - INFO -prediction completed. Downloading prediction file.
+[2025-07-22 14:41:20,561] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 14:41:20] "POST /predict HTTP/1.1" 200 -
+[2025-07-22 14:44:43,231] 224 werkzeug - INFO - * Detected change in 'E:\\DATA ANALYTICS\\Projects\\Sensor Fault Detection\\src\\pipeline\\train_pipeline.py', reloading

@@ -1,0 +1,42 @@
+[2025-07-22 18:31:57,259] 224 werkzeug - WARNING - * Debugger is active!
+[2025-07-22 18:31:57,279] 224 werkzeug - INFO - * Debugger PIN: 606-082-761
+[2025-07-22 18:32:09,856] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 18:32:09] "GET / HTTP/1.1" 200 -
+[2025-07-22 18:32:09,938] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 18:32:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-07-22 18:32:15,446] 57 root - INFO -Entered initiated_data_ingestion method of data_integration class
+[2025-07-22 18:32:15,446] 39 root - INFO -Eporting data from mongodb
+[2025-07-22 18:32:17,383] 48 root - INFO -savinng exported data into feature file path: artifacts
+[2025-07-22 18:32:17,578] 61 root - INFO -got the data from mongodb
+[2025-07-22 18:32:17,579] 62 root - INFO -exited initiate_data_ingestion methods of data ingestion class
+[2025-07-22 18:32:17,579] 67 root - INFO -Entered initiate data transformation method of data transfomration class
+[2025-07-22 18:32:18,001] 36 root - INFO -Entered the new save_object method of MainUtils class
+[2025-07-22 18:32:18,002] 42 root - INFO -Exited the save_objects method of MainUtils class
+[2025-07-22 18:32:18,005] 90 root - INFO -splitting training and testing input and target feature
+[2025-07-22 18:32:18,005] 93 root - INFO -Extracting model config file path
+[2025-07-22 18:32:18,006] 95 root - INFO -Extracting model config file path
+[2025-07-22 18:32:40,740] 57 root - INFO -Entered initiated_data_ingestion method of data_integration class
+[2025-07-22 18:32:40,750] 39 root - INFO -Eporting data from mongodb
+[2025-07-22 18:32:41,787] 48 root - INFO -savinng exported data into feature file path: artifacts
+[2025-07-22 18:32:41,925] 61 root - INFO -got the data from mongodb
+[2025-07-22 18:32:41,927] 62 root - INFO -exited initiate_data_ingestion methods of data ingestion class
+[2025-07-22 18:32:41,927] 67 root - INFO -Entered initiate data transformation method of data transfomration class
+[2025-07-22 18:32:42,383] 36 root - INFO -Entered the new save_object method of MainUtils class
+[2025-07-22 18:32:42,391] 42 root - INFO -Exited the save_objects method of MainUtils class
+[2025-07-22 18:32:42,393] 90 root - INFO -splitting training and testing input and target feature
+[2025-07-22 18:32:42,393] 93 root - INFO -Extracting model config file path
+[2025-07-22 18:32:42,393] 95 root - INFO -Extracting model config file path
+[2025-07-22 18:34:42,693] 116 root - INFO -Best model found on both training and testing dataset
+[2025-07-22 18:34:42,693] 118 root - INFO -saving model at path: artifacts\model.pkl
+[2025-07-22 18:34:42,695] 36 root - INFO -Entered the new save_object method of MainUtils class
+[2025-07-22 18:34:42,696] 42 root - INFO -Exited the save_objects method of MainUtils class
+[2025-07-22 18:34:42,710] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 18:34:42] "GET /train HTTP/1.1" 200 -
+[2025-07-22 18:34:43,237] 116 root - INFO -Best model found on both training and testing dataset
+[2025-07-22 18:34:43,237] 118 root - INFO -saving model at path: artifacts\model.pkl
+[2025-07-22 18:34:43,239] 36 root - INFO -Entered the new save_object method of MainUtils class
+[2025-07-22 18:34:43,302] 42 root - INFO -Exited the save_objects method of MainUtils class
+[2025-07-22 18:34:43,304] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 18:34:43] "GET /train HTTP/1.1" 200 -
+[2025-07-22 18:35:03,664] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 18:35:03] "GET /predict HTTP/1.1" 200 -
+[2025-07-22 18:35:03,870] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 18:35:03] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+[2025-07-22 18:35:03,990] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 18:35:03] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[2025-07-22 18:35:14,171] 85 root - INFO -predictions completed
+[2025-07-22 18:35:14,171] 51 root - INFO -prediction completed. Downloading prediction file.
+[2025-07-22 18:35:14,217] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 18:35:14] "POST /predict HTTP/1.1" 200 -

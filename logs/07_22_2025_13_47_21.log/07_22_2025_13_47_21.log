@@ -1,0 +1,58 @@
+[2025-07-22 13:47:23,808] 224 werkzeug - WARNING - * Debugger is active!
+[2025-07-22 13:47:23,811] 224 werkzeug - INFO - * Debugger PIN: 606-082-761
+[2025-07-22 13:47:38,394] 57 root - INFO -Entered initiated_data_ingestion method of data_integration class
+[2025-07-22 13:47:38,394] 39 root - INFO -Eporting data from mongodb
+[2025-07-22 13:47:39,485] 48 root - INFO -savinng exported data into feature file path: artifacts
+[2025-07-22 13:47:39,530] 61 root - INFO -got the data from mongodb
+[2025-07-22 13:47:39,531] 62 root - INFO -exited initiate_data_ingestion methods of data ingestion class
+[2025-07-22 13:47:39,531] 67 root - INFO -Entered initiate data transformation method of data transfomration class
+[2025-07-22 13:47:39,659] 36 root - INFO -Entered the new save_object method of MainUtils class
+[2025-07-22 13:47:39,661] 42 root - INFO -Exited the save_objects method of MainUtils class
+[2025-07-22 13:47:39,662] 90 root - INFO -splitting training and testing input and target feature
+[2025-07-22 13:47:39,662] 93 root - INFO -Extracting model config file path
+[2025-07-22 13:47:39,662] 95 root - INFO -Extracting model config file path
+[2025-07-22 13:48:46,479] 116 root - INFO -Best model found on both training and testing dataset
+[2025-07-22 13:48:46,479] 118 root - INFO -saving model at path: artifacts\model.pkl
+[2025-07-22 13:48:46,479] 36 root - INFO -Entered the new save_object method of MainUtils class
+[2025-07-22 13:48:46,578] 42 root - INFO -Exited the save_objects method of MainUtils class
+[2025-07-22 13:48:46,579] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:48:46] "GET /train HTTP/1.1" 200 -
+[2025-07-22 13:49:26,556] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:49:26] "GET /predict HTTP/1.1" 200 -
+[2025-07-22 13:49:26,584] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:49:26] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+[2025-07-22 13:49:26,586] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:49:26] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[2025-07-22 13:56:27,810] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:56:27] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2025-07-22 13:56:27,852] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:56:27] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2025-07-22 13:56:27,853] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:56:27] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2025-07-22 13:56:28,187] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:56:28] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2025-07-22 13:56:28,452] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:56:28] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-07-22 13:57:02,577] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:57:02] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2025-07-22 13:57:02,788] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:57:02] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-07-22 13:57:02,896] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:57:02] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-07-22 13:57:03,222] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:57:03] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-07-22 13:57:03,487] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:57:03] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-07-22 13:57:11,011] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:57:11] "GET / HTTP/1.1" 200 -
+[2025-07-22 13:57:26,086] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:57:26] "GET / HTTP/1.1" 200 -
+[2025-07-22 13:57:31,802] 57 root - INFO -Entered initiated_data_ingestion method of data_integration class
+[2025-07-22 13:57:31,803] 39 root - INFO -Eporting data from mongodb
+[2025-07-22 13:57:32,858] 48 root - INFO -savinng exported data into feature file path: artifacts
+[2025-07-22 13:57:32,894] 61 root - INFO -got the data from mongodb
+[2025-07-22 13:57:32,895] 62 root - INFO -exited initiate_data_ingestion methods of data ingestion class
+[2025-07-22 13:57:32,895] 67 root - INFO -Entered initiate data transformation method of data transfomration class
+[2025-07-22 13:57:33,005] 36 root - INFO -Entered the new save_object method of MainUtils class
+[2025-07-22 13:57:33,006] 42 root - INFO -Exited the save_objects method of MainUtils class
+[2025-07-22 13:57:33,007] 90 root - INFO -splitting training and testing input and target feature
+[2025-07-22 13:57:33,007] 93 root - INFO -Extracting model config file path
+[2025-07-22 13:57:33,007] 95 root - INFO -Extracting model config file path
+[2025-07-22 13:58:32,825] 116 root - INFO -Best model found on both training and testing dataset
+[2025-07-22 13:58:32,825] 118 root - INFO -saving model at path: artifacts\model.pkl
+[2025-07-22 13:58:32,826] 36 root - INFO -Entered the new save_object method of MainUtils class
+[2025-07-22 13:58:32,830] 42 root - INFO -Exited the save_objects method of MainUtils class
+[2025-07-22 13:58:32,831] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:58:32] "GET /train HTTP/1.1" 200 -
+[2025-07-22 13:59:07,598] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:59:07] "GET /predict HTTP/1.1" 200 -
+[2025-07-22 13:59:07,631] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:59:07] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+[2025-07-22 13:59:07,733] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:59:07] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[2025-07-22 14:03:31,171] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 14:03:31] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2025-07-22 14:03:31,185] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 14:03:31] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-07-22 14:03:31,191] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 14:03:31] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-07-22 14:03:31,510] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 14:03:31] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-07-22 14:03:31,777] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 14:03:31] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-07-22 14:06:26,545] 224 werkzeug - INFO - * Detected change in 'E:\\DATA ANALYTICS\\Projects\\Sensor Fault Detection\\src\\pipeline\\train_pipeline.py', reloading

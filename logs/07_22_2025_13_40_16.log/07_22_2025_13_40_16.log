@@ -1,0 +1,31 @@
+[2025-07-22 13:40:18,939] 224 werkzeug - WARNING - * Debugger is active!
+[2025-07-22 13:40:18,943] 224 werkzeug - INFO - * Debugger PIN: 606-082-761
+[2025-07-22 13:40:29,756] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:40:29] "GET / HTTP/1.1" 200 -
+[2025-07-22 13:40:34,420] 57 root - INFO -Entered initiated_data_ingestion method of data_integration class
+[2025-07-22 13:40:34,420] 39 root - INFO -Eporting data from mongodb
+[2025-07-22 13:40:35,566] 48 root - INFO -savinng exported data into feature file path: artifacts
+[2025-07-22 13:40:35,709] 61 root - INFO -got the data from mongodb
+[2025-07-22 13:40:35,710] 62 root - INFO -exited initiate_data_ingestion methods of data ingestion class
+[2025-07-22 13:40:35,711] 67 root - INFO -Entered initiate data transformation method of data transfomration class
+[2025-07-22 13:40:36,258] 36 root - INFO -Entered the new save_object method of MainUtils class
+[2025-07-22 13:40:36,260] 42 root - INFO -Exited the save_objects method of MainUtils class
+[2025-07-22 13:40:36,261] 89 root - INFO -splitting training and testing input and target feature
+[2025-07-22 13:40:36,262] 96 root - INFO -Extracting model config file path
+[2025-07-22 13:40:36,262] 98 root - INFO -Extracting model config file path
+[2025-07-22 13:40:36,364] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:40:36] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[2025-07-22 13:40:36,376] 57 root - INFO -Entered initiated_data_ingestion method of data_integration class
+[2025-07-22 13:40:36,376] 39 root - INFO -Eporting data from mongodb
+[2025-07-22 13:40:37,458] 48 root - INFO -savinng exported data into feature file path: artifacts
+[2025-07-22 13:40:37,577] 61 root - INFO -got the data from mongodb
+[2025-07-22 13:40:37,577] 62 root - INFO -exited initiate_data_ingestion methods of data ingestion class
+[2025-07-22 13:40:37,578] 67 root - INFO -Entered initiate data transformation method of data transfomration class
+[2025-07-22 13:40:38,046] 36 root - INFO -Entered the new save_object method of MainUtils class
+[2025-07-22 13:40:38,048] 42 root - INFO -Exited the save_objects method of MainUtils class
+[2025-07-22 13:40:38,052] 89 root - INFO -splitting training and testing input and target feature
+[2025-07-22 13:40:38,052] 96 root - INFO -Extracting model config file path
+[2025-07-22 13:40:38,053] 98 root - INFO -Extracting model config file path
+[2025-07-22 13:40:38,105] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:40:38] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[2025-07-22 13:40:38,125] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:40:38] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-07-22 13:40:38,440] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:40:38] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-07-22 13:40:38,708] 224 werkzeug - INFO -127.0.0.1 - - [22/Jul/2025 13:40:38] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-07-22 13:43:12,127] 224 werkzeug - INFO - * Detected change in 'E:\\DATA ANALYTICS\\Projects\\Sensor Fault Detection\\src\\components\\model_trainer.py', reloading

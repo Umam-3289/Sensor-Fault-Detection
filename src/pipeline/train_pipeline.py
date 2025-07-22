@@ -1,5 +1,6 @@
 import sys
 import os
+import numpy as np
 
 from src.components.data_ingestion import DataIngestion
 from src.components.data_transformation import DataTransformation
