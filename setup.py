@@ -2,7 +2,7 @@ from setuptools import find_packages,setup
 from typing import List
 
 #just update
-#DockerFIle --> Dockerfile commit changes in Github
+#DockerFIle --> Dockerfile commit changes in Github --> pushed into local system
 
 def get_requirements(file_path:str)->List[str]:
     requirements=[]
